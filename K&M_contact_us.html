@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kyle Lynch">
+        <meta name="discription" content="K&M Systems">
+        <meta name="keywords" content="K&M Systems, K&M, Systems">
+        <link type="text/css" rel="stylesheet" href="K&M_Example.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+        <title>K&M</title>
+    </head>
+
+    <body>
+        <a href="index.html">
+            <img id="KMLogo" src="K&M_logo.PNG" alt="My picture">
+        </a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">HOME</a>
+                <a href="K&M_services.html">SERVICES</a>
+                <a href="K&M_products.html">PRODUCTS</a>
+                <a href="K&M_contact_us.html">CONTACT</a>
+                <a href="K&M_dBm_to_watts.html">CALCULATORS</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        <div id="contentArea">
+            <h1 class="center">
+                CONTACT US:
+            </h1>
+            <div class="center">
+
+                <form method="post" name="contact_form" action="email_contact_us.php">
+                    <table class="tableSpacingPaddingAndWidth">
+
+                      <tr>
+                        <td><div><strong>Send us an E-mail</strong></div></td>
+                      </tr>
+
+                      <tr>
+                        <td><input class="contact_us_text" name="realname" type="text" id="realname" placeholder="Name" /></td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                            <div style="padding-top:8px "><input class="contact_us_text" name="email" type="text" id="email" placeholder="Email" /></div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                            <div style="padding-top:8px "><input class="contact_us_text" name="Phone" type="text" id="Phone" placeholder="Phone" /></div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td><div style="padding-top:8px ">
+                            <textarea class="textarea" class="contact_us_text" name="Comments"  placeholder="Comments" id="Comments"></textarea></div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td><input name="submit" class="button2" type="submit" value="Send" /></td>
+                      </tr>
+
+                    </table>
+                  </form>
+
+
+         
+            </div>
+
+            <div class="center" style="margin-bottom: 10px;">
+                <p style="margin-bottom: 10px; font-weight: bold; font-size: 30px;">K&M Systems, Inc. (Corporate Office)</p>
+                <ul style=" display: table; margin: 0 auto;">
+                    <li>
+                        2168 Balboa Ave., Suite 4 San Diego, CA 92109
+                    </li>
+    
+                    <li>
+                        Main: (858) 581-3619 ~ OPT 2
+                    </li>
+    
+                    <li>
+                        info@kmswireless.com
+                    </li>
+                </ul>
+            </div>
+           
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2168%20Balboa%20Ave.%2C%20Suite%204%20San%20Diego%2C%20CA%2092109&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a></div><style>
+            .mapouter{position:relative;text-align:center;height:500px;width:600px; margin-right: auto; margin-left: auto;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+            <div class="center" style="margin-bottom: 10px;">
+                <p style="margin-bottom: 10px; font-weight: bold; font-size: 30px;">K&M Systems offices in the Los Angeles area:</p>
+                <ul style=" display: table; margin: 0 auto;">
+                    <li>
+                        2245 Westwind Way
+                        Signal Hill, CA 90756
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2245%20Westwind%20Way%20Signal%20Hill%2C%20CA%2090756&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a></div><style>
+            .mapouter{position:relative;text-align:center;height:500px;width:600px; margin-right: auto; margin-left: auto;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+           
+
+           <div class="center" style="margin-bottom: 10px;">
+                <ul style=" display: table; margin: 0 auto;">
+                    <li>
+                        20700 Ventura Boulevard
+                        Suite 210
+                        Woodland Hills, CA 91364
+                    </li>
+                </ul>
+            </div>
+
+           <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=20700%20Ventura%20Boulevard%20Suite%20210%20Woodland%20Hills%2C%20CA%2091364&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a></div><style>
+           .mapouter{position:relative;text-align:center;height:500px;width:600px; margin-right: auto; margin-left: auto;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+        </div>
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+            </script>
+    </body>
+    <footer>
+        <div class="center">
+            <img id="women" src="WBEN.jpg" alt="My picture">
+            <img id="women2" src="woman.jpg" alt="My picture">
+        </div>
+    </footer> 
+</html>
